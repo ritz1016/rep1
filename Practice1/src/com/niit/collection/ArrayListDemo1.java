@@ -31,6 +31,7 @@ public class ArrayListDemo1 {
 			System.out.println(str);
 		}
 		
+		
 		//  Enhanced for loop
 		System.out.println("Elements using enhanced for loop");
 		for( String s1 : strings){
@@ -60,7 +61,9 @@ public class ArrayListDemo1 {
 		strings.remove(3);
 		System.out.println("The string after removal by position: "+strings);
 		
-		//  
+		// Merge two arraylist
+		strings.addAll(strings);
+		System.out.println("The string after merging the same arraylist twice : "+strings);
 		
 	}
 
