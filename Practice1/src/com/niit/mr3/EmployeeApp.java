@@ -47,8 +47,6 @@ public class EmployeeApp {
 				System.out.println("Wrong option");
 			}
 		}
-		sc.close();
-		
-	}
-			
+		sc.close();	
+	}			
 }
