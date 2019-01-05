@@ -24,7 +24,7 @@ public class EmployeeApp {
 //			System.out.println("employee in main : "+e1);;
 //			System.out.println("employees list : ");
 //			e.dispAll();
-			System.out.print("Do you hany more employees ? ");
+			System.out.print("Do you have any more employees ? ");
 			rep=sc.next();
 		}while (!rep.equals("n"));
 

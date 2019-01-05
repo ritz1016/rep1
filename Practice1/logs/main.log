@@ -1,0 +1,6 @@
+2019-01-01 11:44:03,025 +0530 [main] ERROR (DatePrac.java:41) - Exception java.text.ParseException: Unparseable date: "11-Jul-1990"
+2019-01-04 15:17:33,732 +0530 [main] ERROR (ReadObjFrmDataFile.java:24) - java.io.FileNotFoundException: personObj.txt (The system cannot find the file specified)
+2019-01-04 15:18:12,916 +0530 [main] ERROR (ReadObjFrmDataFile.java:24) - java.io.FileNotFoundException: personObj.txt (The system cannot find the file specified)
+2019-01-04 15:18:22,088 +0530 [main] ERROR (ReadObjFrmDataFile.java:24) - java.io.InvalidClassException: com.niit.PersonDetails.Person; class invalid for deserialization
+2019-01-04 15:30:56,897 +0530 [main] ERROR (ReadObjFrmDataFile.java:24) - java.io.InvalidClassException: com.niit.PersonDetails.Person; class invalid for deserialization
+2019-01-04 15:49:59,059 +0530 [main] ERROR (ReadObjFrmDataFile.java:26) - java.io.InvalidClassException: com.niit.PersonDetails.Person; class invalid for deserialization
