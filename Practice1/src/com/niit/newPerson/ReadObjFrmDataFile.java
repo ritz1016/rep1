@@ -1,12 +1,11 @@
-package com.niit.io;
+package com.niit.newPerson;
 
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 
 import org.apache.log4j.Logger;
-
-import com.niit.newPerson.Person4Info;
+import com.niit.PersonDetails.Person;;
 
 public class ReadObjFrmDataFile {
 
@@ -16,11 +15,14 @@ public class ReadObjFrmDataFile {
 		ObjectInputStream ois = null;
 		FileInputStream fis =null;
 		try{
-			fis = new FileInputStream("personObj1.txt");
+			fis = new FileInputStream("C:\\Users\\Ritesh\\workspace\\MultiPersnFileIO\\personObj1.dat");
 			ois = new ObjectInputStream(fis);
-			com.niit.newPerson.Person4Info p = (Person4Info)ois.readObject();
 			System.out.println("The Object Contains: ");
-			System.out.println(p);
+			while(fis.available()>0){
+				Person p = (Person)ois.readObject();
+				System.out.println(p);
+			
+			}
 		}
 		catch(IOException e){
 			log.error(e);
