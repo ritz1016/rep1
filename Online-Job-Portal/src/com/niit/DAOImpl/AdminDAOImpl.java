@@ -1,6 +1,6 @@
 package com.niit.DAOImpl;
 
-import java.util.Scanner;
+import java.util.Scanner;//why this package???
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
