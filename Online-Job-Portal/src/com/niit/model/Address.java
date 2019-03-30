@@ -20,6 +20,9 @@ public class Address {
 	private Candidate candidate;
 	@OneToOne(targetEntity=Employer.class)
 	private Employer employer;
+	
+	
+	//why constructor?????
 	public Address() {
 		super();
 		// TODO Auto-generated constructor stub
@@ -87,6 +90,8 @@ public class Address {
 	public void setEmployer(Employer employer) {
 		this.employer = employer;
 	}
+	
+	//wny to String()????
 	@Override
 	public String toString() {
 		return "[locale=" + locale + ", district=" + district + ", city=" + city + ", state=" + state
